@@ -1,0 +1,503 @@
+[
+  {
+    "file": "slides-template.webp",
+    "name": "slides template.png",
+    "kind": "image",
+    "width": 1378,
+    "height": 775
+  },
+  {
+    "file": "video-puck.mp4",
+    "poster": "video-puck.webp",
+    "name": "YTDown.com_Shorts_Media__tjKvwSsSkw_Where-Will-the-Puck-Be_001_1080p.mp4",
+    "kind": "video",
+    "width": 640,
+    "height": 1138
+  },
+  {
+    "file": "video-surcharging.mp4",
+    "poster": "video-surcharging.webp",
+    "name": "YTDown.com_Shorts_Media_sHpG-f_QwV4_myKaarma-Surcharging-Advantage_001_1080p.mp4",
+    "kind": "video",
+    "width": 640,
+    "height": 1138
+  },
+  {
+    "file": "mku-videos.webp",
+    "name": "mku videos.png",
+    "kind": "image",
+    "width": 1693,
+    "height": 859
+  },
+  {
+    "file": "mku-course-catalog.webp",
+    "name": "mku course catalog.png",
+    "kind": "image",
+    "width": 1692,
+    "height": 856
+  },
+  {
+    "file": "mku-landing-page.webp",
+    "name": "mku landing page.png",
+    "kind": "image",
+    "width": 1773,
+    "height": 859
+  },
+  {
+    "file": "video-welcome.mp4",
+    "poster": "video-welcome.webp",
+    "name": "YTDown.com_YouTube_Media_apqTC6NXZaQ_Welcome-to-myKaarma_001_1080p.mp4",
+    "kind": "video",
+    "width": 640,
+    "height": 360
+  },
+  {
+    "file": "linkedin-banner-5.webp",
+    "name": "Linkedin Banner 5.png",
+    "kind": "image",
+    "width": 192,
+    "height": 86
+  },
+  {
+    "file": "linkedin-banner-4.webp",
+    "name": "Linkedin Banner 4.png",
+    "kind": "image",
+    "width": 192,
+    "height": 101
+  },
+  {
+    "file": "linkedin-banner-3.webp",
+    "name": "Linkedin Banner 3.png",
+    "kind": "image",
+    "width": 384,
+    "height": 226
+  },
+  {
+    "file": "linkedin-banner-2.webp",
+    "name": "Linkedin Banner 2.png",
+    "kind": "image",
+    "width": 192,
+    "height": 88
+  },
+  {
+    "file": "c.webp",
+    "name": "c.png",
+    "kind": "image",
+    "width": 178,
+    "height": 142
+  },
+  {
+    "file": "b.webp",
+    "name": "b.png",
+    "kind": "image",
+    "width": 182,
+    "height": 113
+  },
+  {
+    "file": "a.webp",
+    "name": "a.png",
+    "kind": "image",
+    "width": 294,
+    "height": 146
+  },
+  {
+    "file": "3.webp",
+    "name": "3.png",
+    "kind": "image",
+    "width": 470,
+    "height": 268
+  },
+  {
+    "file": "2.webp",
+    "name": "2.png",
+    "kind": "image",
+    "width": 303,
+    "height": 171
+  },
+  {
+    "file": "1.webp",
+    "name": "1.png",
+    "kind": "image",
+    "width": 407,
+    "height": 45
+  },
+  {
+    "file": "linkedin-banner-1.webp",
+    "name": "Linkedin Banner 1.png",
+    "kind": "image",
+    "width": 192,
+    "height": 102
+  },
+  {
+    "file": "mykaarma-wheel-diagram.webp",
+    "name": "myKaarma-Wheel-Diagram.png",
+    "kind": "image",
+    "width": 1500,
+    "height": 1500
+  },
+  {
+    "file": "mk-productsheet-logitrac-1-01.webp",
+    "name": "mK_ProductSheet_Logitrac (1).pdf",
+    "page": 1,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mk-productsheet-logitrac-1-02.webp",
+    "name": "mK_ProductSheet_Logitrac (1).pdf",
+    "page": 2,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mykaarma-subaru-packages-pricing-sheet-01.webp",
+    "name": "myKaarma Subaru Packages & Pricing Sheet.pdf",
+    "page": 1,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mykaarma-subaru-packages-pricing-sheet-02.webp",
+    "name": "myKaarma Subaru Packages & Pricing Sheet.pdf",
+    "page": 2,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mk-payment-processing-12-12-23-pptx-01.webp",
+    "name": "Mk Payment Processing.12.12.23.pptx.pdf",
+    "page": 1,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mk-payment-processing-12-12-23-pptx-02.webp",
+    "name": "Mk Payment Processing.12.12.23.pptx.pdf",
+    "page": 2,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "sunbit-integration-01.webp",
+    "name": "Sunbit Integration.pdf",
+    "page": 1,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "sunbit-integration-02.webp",
+    "name": "Sunbit Integration.pdf",
+    "page": 2,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "surcharge-01.webp",
+    "name": "Surcharge.pdf",
+    "page": 1,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "surcharge-02.webp",
+    "name": "Surcharge.pdf",
+    "page": 2,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mk-story-01.webp",
+    "name": "mK Story.pdf",
+    "page": 1,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mk-phone-labels-1x3-final.webp",
+    "name": "mK Phone Labels 1x3 final.png",
+    "kind": "image",
+    "width": 500,
+    "height": 1500
+  },
+  {
+    "file": "kaarma-logical.webp",
+    "name": "kaarma logical.png",
+    "kind": "image",
+    "width": 1439,
+    "height": 939
+  },
+  {
+    "file": "kaarma-tech.webp",
+    "name": "kaarma tech.png",
+    "kind": "image",
+    "width": 1262,
+    "height": 944
+  },
+  {
+    "file": "icon.webp",
+    "name": "icon.png",
+    "kind": "image",
+    "width": 120,
+    "height": 120
+  },
+  {
+    "file": "mykaarma.webp",
+    "name": "mykaarma.png",
+    "kind": "image",
+    "width": 550,
+    "height": 100
+  },
+  {
+    "file": "service-at-home-mobile-service-color.webp",
+    "name": "service at home.mobile service.color.png",
+    "kind": "image",
+    "width": 300,
+    "height": 300
+  },
+  {
+    "file": "mk-learn.webp",
+    "name": "mK Learn.png",
+    "kind": "image",
+    "width": 300,
+    "height": 300
+  },
+  {
+    "file": "linkedin-profile-banner.webp",
+    "name": "LinkedIn Profile Banner.png",
+    "kind": "image",
+    "width": 1584,
+    "height": 396
+  },
+  {
+    "file": "mk-logo-200-white.webp",
+    "name": "mk Logo 200 white.png",
+    "kind": "image",
+    "width": 200,
+    "height": 200
+  },
+  {
+    "file": "mykaarma-product-guide-2026v3-full-01.webp",
+    "name": "myKaarma Product Guide_2026v3_FULL.pdf",
+    "page": 1,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mykaarma-product-guide-2026v3-full-02.webp",
+    "name": "myKaarma Product Guide_2026v3_FULL.pdf",
+    "page": 2,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mykaarma-product-guide-2026v3-full-03.webp",
+    "name": "myKaarma Product Guide_2026v3_FULL.pdf",
+    "page": 3,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mykaarma-product-guide-2026v3-full-04.webp",
+    "name": "myKaarma Product Guide_2026v3_FULL.pdf",
+    "page": 4,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mykaarma-product-guide-2026v3-full-05.webp",
+    "name": "myKaarma Product Guide_2026v3_FULL.pdf",
+    "page": 5,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mykaarma-product-guide-2026v3-full-06.webp",
+    "name": "myKaarma Product Guide_2026v3_FULL.pdf",
+    "page": 6,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mykaarma-product-guide-2026v3-full-07.webp",
+    "name": "myKaarma Product Guide_2026v3_FULL.pdf",
+    "page": 7,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mykaarma-product-guide-2026v3-full-08.webp",
+    "name": "myKaarma Product Guide_2026v3_FULL.pdf",
+    "page": 8,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mykaarma-product-guide-2026v3-full-09.webp",
+    "name": "myKaarma Product Guide_2026v3_FULL.pdf",
+    "page": 9,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mykaarma-product-guide-2026v3-full-10.webp",
+    "name": "myKaarma Product Guide_2026v3_FULL.pdf",
+    "page": 10,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mykaarma-product-guide-2026v3-full-11.webp",
+    "name": "myKaarma Product Guide_2026v3_FULL.pdf",
+    "page": 11,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mykaarma-product-guide-2026v3-full-12.webp",
+    "name": "myKaarma Product Guide_2026v3_FULL.pdf",
+    "page": 12,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mykaarma-product-guide-2026v3-full-13.webp",
+    "name": "myKaarma Product Guide_2026v3_FULL.pdf",
+    "page": 13,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mykaarma-product-guide-2026v3-full-14.webp",
+    "name": "myKaarma Product Guide_2026v3_FULL.pdf",
+    "page": 14,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mykaarma-product-guide-2026v3-full-15.webp",
+    "name": "myKaarma Product Guide_2026v3_FULL.pdf",
+    "page": 15,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mykaarma-product-guide-2026v3-full-16.webp",
+    "name": "myKaarma Product Guide_2026v3_FULL.pdf",
+    "page": 16,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mykaarma-product-guide-2026v3-full-17.webp",
+    "name": "myKaarma Product Guide_2026v3_FULL.pdf",
+    "page": 17,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mykaarma-product-guide-2026v3-full-18.webp",
+    "name": "myKaarma Product Guide_2026v3_FULL.pdf",
+    "page": 18,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mykaarma-product-guide-2026v3-full-19.webp",
+    "name": "myKaarma Product Guide_2026v3_FULL.pdf",
+    "page": 19,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mykaarma-product-guide-2026v3-full-20.webp",
+    "name": "myKaarma Product Guide_2026v3_FULL.pdf",
+    "page": 20,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mykaarma-product-guide-2026v3-full-21.webp",
+    "name": "myKaarma Product Guide_2026v3_FULL.pdf",
+    "page": 21,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mykaarma-product-guide-2026v3-full-22.webp",
+    "name": "myKaarma Product Guide_2026v3_FULL.pdf",
+    "page": 22,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mykaarma-product-guide-2026v3-full-23.webp",
+    "name": "myKaarma Product Guide_2026v3_FULL.pdf",
+    "page": 23,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "mykaarma-product-guide-2026v3-full-24.webp",
+    "name": "myKaarma Product Guide_2026v3_FULL.pdf",
+    "page": 24,
+    "kind": "page",
+    "width": 889,
+    "height": 1150
+  },
+  {
+    "file": "logo-dark-fullres.webp",
+    "name": "logo-dark_FULLRES.png",
+    "kind": "image",
+    "width": 1800,
+    "height": 376
+  },
+  {
+    "file": "image-1.webp",
+    "name": "image (1).png",
+    "kind": "image",
+    "width": 1147,
+    "height": 601
+  },
+  {
+    "file": "video-nada.mp4",
+    "poster": "video-nada.webp",
+    "name": "YTDown.com_Shorts_Media_BRUdnuc7KOg_NADA-is-on-the-Horizon_001_720p.mp4",
+    "kind": "video",
+    "width": 360,
+    "height": 636
+  }
+]
