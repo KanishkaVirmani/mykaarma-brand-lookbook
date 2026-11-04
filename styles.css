@@ -33,3 +33,19 @@
 .post-testimonial{left:64px;top:235px;width:582px;height:305px}.post-testimonial .artwork-open{height:274px}.post-media{left:690px;top:235px;width:400px;height:631px}.post-media .artwork-open{height:600px}.post-blog{left:1130px;top:235px;width:406px;height:640px}.post-blog .artwork-open{height:609px}.post-headline{left:64px;top:636px;width:582px}.post-headline h1{font-size:43px}
 @media(max-width:900px){.presenter-controls{left:0;right:0;padding:17px 16px;gap:10px}.presenter-controls .chapters-button{max-width:190px;min-width:0}}
 @media(max-width:560px){.presenter-controls{padding:17px 10px}.presenter-controls .chapters-button{max-width:100px}.presenter-controls .controls-right{gap:5px}}
+
+/* Slide 5: a fleeting brand-pattern burst behind the final black master. */
+.logo-burst{position:absolute;inset:0;width:1600px;height:900px;visibility:hidden;pointer-events:none;z-index:0}
+.reveal .logo-stage{z-index:1}
+@media(prefers-reduced-motion:reduce){.logo-burst{display:none}}
+
+/* Slide 10: single social tile above the premium four-category swag collage. */
+.activation-spread .activation-headline{left:510px;top:235px;width:335px}
+.activation-spread .activation-headline h1{font-size:40px;letter-spacing:-1.5px;line-height:1.08}
+.activation-spread .activation-social{left:880px;top:235px;width:260px;height:270px}
+.activation-spread .activation-social .artwork-open{height:239px}
+.activation-spread .activation-social img{object-fit:contain;object-position:center}
+.activation-spread .activation-swag{left:510px;top:522px;width:630px;height:336px}
+.activation-spread .activation-swag .artwork-open{height:305px}
+.activation-spread .activation-swag img{object-fit:contain;object-position:left center}
+.activation-spread .activation-swag figcaption{max-width:542px}

@@ -1,3 +1,4 @@
+import {createRevealBurst} from './reveal-burst.js';
 import {chapters,durations,journey,notes,step,SCENE,COLLAGE_APPEAR_SECONDS,COLLAGE_TRAVEL_SECONDS,collageInterval,mixedCollection} from './model.js';
 
 const $=id=>document.getElementById(id);
@@ -81,9 +82,11 @@ function setJourney(target,animate=true){
 // Each fill stays in the exact vector logo mask. Only the moving color edge changes.
 const colors=['#FF5500','#C61354','#EAECF4','#D1BBFF','#000000'];
 colors.forEach(color=>{const layer=document.createElement('div');Object.assign(layer.style,{position:'absolute',inset:'0',background:color,clipPath:'inset(0 100% 0 0)'});$('logo-fill').append(layer);});
+const updateRevealBurst=createRevealBurst($('logo-burst'));
 const clamp=x=>Math.max(0,Math.min(1,x));
 const smooth=x=>x*x*(3-2*x);
 function updateReveal(t){
+  updateRevealBurst(t);
   const emboss=$('logo-emboss'),fill=$('logo-fill');
   const emergence=clamp((t-1)/.8),blackProgress=clamp((t-9)/1.7);
   emboss.style.opacity=String(emergence*(1-smooth(blackProgress)));

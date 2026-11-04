@@ -2,12 +2,20 @@
 
 The complete static website, ready for GitHub Pages or another static host. There is no build step, package installation, backend, or database.
 
+## November 4 update
+
+- Slide 5: 36 bold, longer raspberry, lavender, and orange strokes play out over 1.15 seconds behind the final black logo after a 0.5-second pause, then disappear. Replay with R. Reduced-motion viewing retains the final black logo without the burst.
+- Slide 10: the single supplied Automation social artwork sits beside the headline; the swag collage below includes the caps, jotters, pointers, and socks. Both open at full size on click.
+- This package is for one manual GitHub update; the live sites have not been changed.
+- Before copying these files into your existing local repository, click Fetch origin / Pull origin in GitHub Desktop to retrieve any changes made on GitHub. Copy the contents of this folder into that repository, replace matching files, then commit and push. Keep any existing hosting settings.
+
 ## What is included
 
 - `index.html`: the 12 presentation pages.
 - `styles.css`: layout, colours and typography.
 - `app.js`: presenter controls and animations.
 - `model.js`: page titles, presenter notes, and animation timing.
+- `reveal-burst.js`: the brief brand-pattern accent behind the final black logo.
 - `assets/`: supplied images, logos, silent video excerpts, fonts, and media manifest. Keep this folder intact.
 - `.nojekyll`: tells GitHub Pages to serve the supplied static files directly.
 
