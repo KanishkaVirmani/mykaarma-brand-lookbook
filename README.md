@@ -2,6 +2,14 @@
 
 The complete static website, ready for GitHub Pages or another static host. There is no build step, package installation, backend, or database.
 
+## Consistent artwork hover
+
+The same subtle hover zoom is restored on all artwork. Each artwork is isolated within its own paint boundary and its image keeps a stable compositing layer to address hover ghosting. Click-to-enlarge is unchanged.
+
+## Chrome cache fix
+
+This package uses content-versioned CSS and JavaScript filenames, including both imported modules. Upload all files together so Chrome requests matching resources instead of reusing the previous filenames. The chosen third logo animation and slide 10 design are unchanged.
+
 ## November 4 update
 
 - Slide 5: 36 bold, longer raspberry, lavender, and orange strokes play out over 1.15 seconds behind the final black logo after a 0.5-second pause, then disappear. Replay with R. Reduced-motion viewing retains the final black logo without the burst.
