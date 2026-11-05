@@ -1,5 +1,5 @@
 import {createRevealBurst} from './reveal-burst.js';
-import {chapters,durations,journey,notes,step,SCENE,COLLAGE_APPEAR_SECONDS,COLLAGE_TRAVEL_SECONDS,collageInterval,mixedCollection} from './model.js';
+import {chapters,durations,journey,step,SCENE,COLLAGE_APPEAR_SECONDS,COLLAGE_TRAVEL_SECONDS,collageInterval,mixedCollection} from './model.js';
 
 const $=id=>document.getElementById(id);
 const canvas=$('canvas'), scenes=[...document.querySelectorAll('.scene')];
@@ -115,7 +115,6 @@ function updateControls(){
   $('play-button').hidden=scene>SCENE.collage;$('play-button').textContent=paused?'Resume':playing?'Pause':'Play opening';
   [...$('progress').children].forEach((b,i)=>{b.classList.toggle('active',i===scene);b.classList.toggle('past',i<scene);if(i===scene)b.setAttribute('aria-current','step');else b.removeAttribute('aria-current');});
   [...$('chapter-menu').children].forEach((b,i)=>b.classList.toggle('active',i===scene));
-  const n=notes[scene];$('notes-title').textContent=n[0];$('notes-content').textContent=n[1];$('notes-source').textContent=n[2];
 }
 function stopPlay(){playing=false;paused=false;document.querySelectorAll('.animate').forEach(el=>el.style.animationPlayState='running');document.querySelectorAll('.asset-tile').forEach(el=>el.style.animationPlayState='running');updateControls();}
 function navigate(delta){
@@ -138,9 +137,8 @@ chapters.forEach((name,i)=>{
   const item=document.createElement('button');const number=document.createElement('span');number.textContent=String(i+1).padStart(2,'0');item.append(number,document.createTextNode(name));item.addEventListener('click',()=>{stopPlay();c=0;setScene(i);toggleMenu(false);});$('chapter-menu').append(item);
 });
 function toggleMenu(open=$('chapter-menu').hidden){$('chapter-menu').hidden=!open;$('chapters-button').setAttribute('aria-expanded',String(open));}
-function toggleNotes(){$('notes-panel').hidden=!$('notes-panel').hidden;}
 function fullscreen(){if(document.fullscreenElement)document.exitFullscreen?.();else document.documentElement.requestFullscreen?.().catch(()=>{});}
-$('next-button').addEventListener('click',()=>navigate(1));$('previous-button').addEventListener('click',()=>navigate(-1));$('replay-button').addEventListener('click',replay);$('play-button').addEventListener('click',togglePlay);$('chapters-button').addEventListener('click',()=>toggleMenu());$('notes-button').addEventListener('click',toggleNotes);$('close-notes').addEventListener('click',toggleNotes);$('fullscreen-button').addEventListener('click',fullscreen);
+$('next-button').addEventListener('click',()=>navigate(1));$('previous-button').addEventListener('click',()=>navigate(-1));$('replay-button').addEventListener('click',replay);$('play-button').addEventListener('click',togglePlay);$('chapters-button').addEventListener('click',()=>toggleMenu());$('fullscreen-button').addEventListener('click',fullscreen);
 document.addEventListener('click',e=>{if(!e.target.closest('#chapter-menu')&&!e.target.closest('#chapters-button'))toggleMenu(false);});
 $('viewport').addEventListener('click',e=>{if(!e.target.closest('button'))navigate(1);});
 document.addEventListener('keydown',e=>{
@@ -150,11 +148,10 @@ document.addEventListener('keydown',e=>{
   else if(['ArrowLeft','ArrowUp','PageUp'].includes(e.key)){e.preventDefault();navigate(-1);}
   else if(e.key.toLowerCase()==='r')replay();
   else if(e.key.toLowerCase()==='p')togglePlay();
-  else if(e.key.toLowerCase()==='n')toggleNotes();
   else if(e.key.toLowerCase()==='f')fullscreen();
   else if(e.key==='Home'){stopPlay();c=0;setScene(0);}
   else if(e.key==='End'){stopPlay();setScene(chapters.length-1);}
-  else if(e.key==='Escape'){toggleMenu(false);$('notes-panel').hidden=true;}
+  else if(e.key==='Escape'){toggleMenu(false);}
 });
 function tick(now){const delta=Math.min(100,now-last);last=now;if(!paused)elapsed+=delta;
   if(scene===SCENE.question)updateQuestion(elapsed/1000);

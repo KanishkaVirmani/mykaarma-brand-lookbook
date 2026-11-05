@@ -2,6 +2,10 @@
 
 The complete static website, ready for GitHub Pages or another static host. There is no build step, package installation, backend, or database.
 
+## Presentation controls
+
+Presenter notes and their footer button have been removed throughout the deck. The N key no longer opens notes.
+
 ## Consistent artwork hover
 
 The same subtle 1.8% hover zoom is retained on all artwork using animated dimensions instead of nested image transforms. The social tile uses a full-resolution, opaque lossless copy of the original artwork. Click-to-enlarge is unchanged.
@@ -22,7 +26,7 @@ This package uses content-versioned CSS and JavaScript filenames, including both
 - `index.html`: the 12 presentation pages.
 - `styles.css`: layout, colours and typography.
 - `app.js`: presenter controls and animations.
-- `model.js`: page titles, presenter notes, and animation timing.
+- `model.js`: page titles and animation timing.
 - `reveal-burst.js`: the brief brand-pattern accent behind the final black logo.
 - `assets/`: supplied images, logos, silent video excerpts, fonts, and media manifest. Keep this folder intact.
 - `.nojekyll`: tells GitHub Pages to serve the supplied static files directly.
@@ -73,7 +77,6 @@ There is no build command or dependency installation to configure. No custom dom
 - Click an artwork: open the full-size image. Close or Escape returns to the presentation.
 - P: play/pause the opening.
 - R: replay the current beat.
-- N: presenter notes.
 - F: fullscreen.
 - The menu and top timeline provide direct navigation.
 
