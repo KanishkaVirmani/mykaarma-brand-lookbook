@@ -4,7 +4,7 @@ The complete static website, ready for GitHub Pages or another static host. Ther
 
 ## Consistent artwork hover
 
-The same subtle hover zoom is restored on all artwork. Each artwork is isolated within its own paint boundary and its image keeps a stable compositing layer to address hover ghosting. Click-to-enlarge is unchanged.
+The same subtle 1.8% hover zoom is retained on all artwork using animated dimensions instead of nested image transforms. The social tile uses a full-resolution, opaque lossless copy of the original artwork. Click-to-enlarge is unchanged.
 
 ## Chrome cache fix
 
